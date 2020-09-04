@@ -1,0 +1,14 @@
+import java.util.*;
+public class Hello {
+
+    public static void main(String[] args) {
+		Scanner str=new Scanner(System.in)
+		String str=str.nextLine();
+		int lengeth=str.lengeth();
+        for(int i=0;i<lengeth;i++){
+            if(str.charAt(i)==' '){
+                cout++;
+            }
+        }
+	}System.out.print(lengeth-cout);
+}
